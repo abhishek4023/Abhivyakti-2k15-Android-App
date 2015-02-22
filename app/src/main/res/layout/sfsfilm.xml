@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f5"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FILM SCHEDULE"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="16 FEB 2015"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edge Of Tomorrow [12:00PM TO 02:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tever [08:00PM TO 10:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="17 FEB 2015"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 States [12:00PM TO 02:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roy [08:00PM TO 10:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="18 FEB 2015"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I [12:00PM TO 02:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guardians of Galaxy [08:00PM TO 10:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="19 FEB 2015"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transformers 4 [12:00PM TO 02:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PK [08:00PM TO 10:30PM]"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

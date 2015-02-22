@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:id="@+id/ScrollView01"
+    android:background="@drawable/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:padding="16dp"
+    android:orientation="vertical"
+
+
+    >
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Abhivyakti"
+        android:id="@+id/abhiv"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Cells and Events"
+        android:id="@+id/cells"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/abhiv"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+        />
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Special Events"
+        android:id="@+id/btnspevents"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/cells"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Registration"
+        android:id="@+id/reg"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Schedule"
+        android:id="@+id/sch"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/reg"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Notification"
+        android:id="@+id/not"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/sch"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Results"
+        android:id="@+id/results"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/not"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Queries"
+        android:id="@+id/queries"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/results"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Exit"
+        android:id="@+id/exit"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff050101"
+
+        />
+
+
+</LinearLayout>
+</ScrollView>

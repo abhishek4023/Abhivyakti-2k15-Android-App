@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f6"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWSPAPER EVENTS"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Competitive Events"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+
+                />
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TAMBOLA"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conducted for faculty members as well as the students.(maybe two fat ladies “88” can make you win an exciting prices)"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="BLACK AND WHITE"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fill in the drop box with your pencil sketches and be the best to grab a gift."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TATTOO MAKING"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get in with your partner. Make a skin tattoo and make it a trend in the college."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="T-SHIRT PAINTING"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paint it colorfull and bright and win to wear it. Game for two."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="QUIZARD"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Answer maximum and let the price be yours."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+            </LinearLayout>
+         </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

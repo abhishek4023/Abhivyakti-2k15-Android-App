@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f3"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATIVE CANVAS"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Competitive Events"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+
+                />
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Rising Star"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Duration: 90 min."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Group Size: 1 participant"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Material provided: sheet, colours, brush, pencils, eraser"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Requirements: none"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ethnically Black and White"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Duration:40 min."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Group Size: 1 participant"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Material provided: sheet, HB pencils, eraser and sharpener"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Requirements: other type of pencils"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="left"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Rangoli"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Duration: 60 min"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Group Size: 2 participants"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Material provided: none"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Requirements: requisites must be brought by participants itself."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="left"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Paint and Spray"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Duration: 45 min."
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Group Size: 2 participants"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Material provided: 2 toothbrush, paint, colours"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Requirements: none"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Theme Painting"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="  • Time Duration: 60 min."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="  • Group Size: 1 participants"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="  • Material provided: sheet, colours, brush, pencils, eraser, sharpener."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Requirements: none"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:background="#9C27B0"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                >
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Presentation Events"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Explore Your World"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="18dp"
+                    android:text="Welcome to the world of Art –“The Art Gallery”."
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="18dp"
+                    android:text="The place where you can find the artistic creation of young engineers and our management studies… Reveal your creativity and let it comes out on paper …”."
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="18dp"
+                    android:text="Play with colour and make Art Gallery, A real world of imagination….”."
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

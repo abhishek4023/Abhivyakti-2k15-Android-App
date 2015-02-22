@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f2"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EVENTS"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Competitive Events"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+
+                />
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="EKLA A SOLO SOLE (Solos for Girls and Boys)"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Limit : 3 minutes for each"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Props are allowed"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="JITTERBUG (Group Dance)"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Time Limit : 4 minutes for each"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Max. members 8"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  • Props are allowed"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="left"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:background="#9C27B0"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                >
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="GENERAL RULES for Competitive Events"
+                    android:textSize="20dp"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Only 10 entries per competitive event from a college will be accepted."
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Soundtrack given by the participants should be in mp3 format."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="•	Participants are required to bring their track in pendrive and give to the coordinators before the events are started."
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• If failed to perform in the 1st attempt, no 2nd attempt will be provided to the contestants in any of the competitive events."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Decision of the Judges and the Organizing committee will be final and cannot be challenged"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:background="#9C27B0"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                >
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Presentation Events"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="The enthusiasm will start from Inaugural event: ANAVARAN followed by Bollywood Dhamaka  D SE DANCE. The fun is continued on the next day by presenting the cherishable melodies of 90s: CHITRAHAR and for evening the street dance ESTAMPIE.The event stopping show that will be a surprise package for the audience A SECRET."
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="left"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhishekmaurya.abhivyakti2k15"
+    >
+    <uses-sdk android:minSdkVersion="15"></uses-sdk>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Abhivyakti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Abhivyakti" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".abhivabout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.abhivabout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".queries"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.queries" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".cellandevent"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.cellandevent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    <activity
+        android:name=".musiccell"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.Abhivyakti2k15.abhishekmaurya.musiccell" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".musicabout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.musicabout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".musicmember"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.musicmember" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".musicevent"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.musicevent" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Notification"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Notification" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Results"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Results" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DramaticCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DramaticCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DramaAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DramaAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DramaMember"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DramaMember" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DramaEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DramaEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StepCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StepCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StepAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StepAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StepMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StepMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StepEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StepEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ComperingCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ComperingCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ComperingMem"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ComperingMem" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ComperingAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ComperingAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DecorationCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DecorationCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DecorationAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DecorationAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DecorationMember"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DecorationMember" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HospitalityCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HospitalityCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HospitalityAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HospitalityAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HospitalityMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HospitalityMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PdcCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PdcCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PdcMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PdcMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PdcAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PdcAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StageCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StageCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StageAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StageAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StageMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StageMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".IpcCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.IpcCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IpcAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.IpcAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IpcEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.IpcEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IpcMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.IpcMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FashionCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.FashionCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FashionAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.FashionAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FashionMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.FashionMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegistrationSelectCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegistrationSelectCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegStepCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegStepCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WarningPop"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.WarningPop" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ScheduleMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ScheduleMain" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Day1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Day1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Day2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Day2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Day3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Day3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SpecialEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SpecialEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HandicraftAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HandicraftAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HandicraftCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HandicraftCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HandicraftMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HandicraftMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HandicraftsEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HandicraftsEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfromalCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InfromalCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InformalAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InformalAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InformalEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InformalEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InformalMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InformalMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecurityCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SecurityCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecurityCellAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SecurityCellAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecurityCellMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SecurityCellMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LiteratiCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.LiteratiCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LiteratiAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.LiteratiAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LiteratiMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.LiteratiMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LiteratiEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.LiteratiEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegMusicCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegMusicCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegDramaticsCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegDramaticsCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegLiterattiCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegLiterattiCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegInformalCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegInformalCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegHandicraftCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegHandicraftCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewspaperCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.NewspaperCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewspaperAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.NewspaperAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewspaperEvent"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.NewspaperEvent" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StarNightAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.StarNightAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AbhivyaktiCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.AbhivyaktiCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegNewspaperCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegNewspaperCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MyDetail"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.MyDetail" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".XeroAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.XeroAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EpcCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.EpcCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EpcCellAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.EpcCellAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EpcCellMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.EpcCellMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ControlCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ControlCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ControlCellAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ControlCellAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ControlCellMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ControlCellMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PhotoCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PhotoAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PhotoEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.PhotoMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfraCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InfraCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfraAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InfraAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfraMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.InfraMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreativeCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.CreativeCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreativeAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.CreativeAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreativeMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.CreativeMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreativeEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.CreativeEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SfsCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SfsCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SfsCellAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SfsCellAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SfsCellMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SfsCellMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SfsFilm"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.SfsFilm" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrganizingComitee"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.OrganizingComitee" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegPhotoCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegPhotoCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegCanvasCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RegCanvasCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mediacell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Mediacell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MediaMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.MediaMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewspaperMembers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.NewspaperMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DisclaimerFr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.DisclaimerFr" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HowToReg"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.HowToReg" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsPdc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsPdc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsCompering"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsCompering" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsStep"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsStep" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsDecoration"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsDecoration" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsDramatics"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsDramatics" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsFashion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsFashion" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsHandicraft"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsHandicraft" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsHospitality"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsHospitality" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsInformal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsInformal" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsIpc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsIpc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsLiterati"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsLiterati" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsMusic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsMusic" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsSecurity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsSecurity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsStage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsStage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsCanvas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsCanvas" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsPhoto"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsPhoto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsControl"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsControl" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsSfs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsSfs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsMedia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsMedia" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsNewspaper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsNewspaper" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsEpc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsEpc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsInfra"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.ContactsInfra" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kunal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.Kunal" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RitumMem"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RitumMem" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RitumCell"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RitumCell" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RitumAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.Abhivyakti2k15.abhishekmaurya.RitumAbout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

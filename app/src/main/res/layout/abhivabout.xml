@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ABHIVYAKTI"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="The hunger for glory has taken man to unimaginable heights through unthinkable hurdles. It is this hunger that has driven the perseverant and the adroit since time immemorial. Rarely does an ambitious amidst the best of the best."
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="It’s even more improbable that the achiever is indisputably recognized and lauded with worthy praise and in the process enjoys the innate satisfaction of having proven himself amongst the titans of that field."
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="This February will stand witness to the days of fresh ideation and euphoria. It assures of being nothing less than a revolution in cultural globe, aptly known as ABHIVYAKTI."
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="Abhivyakti is the one of the most sought after college Extravaganzas in UP. The relative isolation of Lucknow from other cities is one aspect that makes Abhivyakti so special to every one who attends the fiesta. It is this very distance that guards us from the mediocrity of the out side world and helps us in spawning a cultural calibration unlike any other. The crux of Abhivyakti is that every thing is managed by students."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:text="This Year our Theme is Vasudhaiv Kutumbakam.
+ Vasudhaiva Kutumbakam is a philosophy that inculcates an understanding that the whole world is one family. It is a philosophy that tries to foster an understanding that the whole of humanity is one family. It is a social philosophy emanating from a spiritual understanding that the whole of humanity is made of one life energy."
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#424242"
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPER"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Abhivyakti 2k15 v1.0 developed by"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#F44336"
+        android:paddingTop="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Abhishek Maurya [CS]"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#795548"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum OS version supported:
+Android 4.0.3 [API 15]"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Targeted OS version:
+Android 5.0.2 [API 21]"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+        </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#006064"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This app is official app of Abhivyakti 2k15. You can get all the information related to cells and events here. You can also register yourself here."
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#424242"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is Designed on Android 5.0 (Lollipop) Platform.
+Designing is done using xml 1.0 and backend programming using java 8.
+Everyone is allowed to download the source code of this project from my github repository located at
+'https://github.com/abhishek4023/Abhivyakti-2k15-Android-App'
+
+For more technical specification of this app you can contact me on
+abhishekmaurya@outlook.com"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="6dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

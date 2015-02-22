@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bannercellname"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:id="@+id/layoutforspinner"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Event Name"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="(Select the Event from below)"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinnerevents"
+                    android:background="#ff08906e"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Contact Number"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/TextPhone" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="College Name"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/TextColName" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:id="@+id/layoutformembers"
+                android:layout_gravity="center"
+                android:background="#88968c06"
+                >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Total Members"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="(If individual event then select 1 )"
+                    android:background="#3F51B5"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinnermember"
+                    android:textAlignment="center"
+                    android:background="#ff08906e"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#88968c06"
+                >
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:weightSum="100"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_weight="60"
+                        android:text="Name"
+                        android:textAlignment="center"
+                        android:background="#3F51B5"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_weight="20"
+                        android:text="Branch"
+                        android:textAlignment="center"
+                        android:background="#3F51B5"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_weight="20"
+                        android:textAlignment="center"
+                        android:text="Year"
+                        android:background="#3F51B5"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/layoutforlist"
+                    android:orientation="vertical"
+
+                    >
+
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/reglay"
+                    android:layout_gravity="center"
+                    >
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:text="REGISTER"
+                        android:id="@+id/btnregis"
+                        android:background="#fffc2f2d"
+                        android:gravity="center"
+                        android:textSize="25dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#FFFFFF"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

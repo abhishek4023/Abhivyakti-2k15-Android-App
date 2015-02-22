@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f3"
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="STAGE CELL"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="About"
+            android:id="@+id/stageaboutb"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff050101"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:text="Members"
+            android:textAllCaps="false"
+            android:id="@+id/stagememb"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff050101"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:text="Contacts"
+            android:textAllCaps="false"
+            android:id="@+id/stagecont"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff050101"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

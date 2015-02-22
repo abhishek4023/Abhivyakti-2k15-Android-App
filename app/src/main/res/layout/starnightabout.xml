@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="STAR NIGHT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#009688"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="15,000 heads banging, 60,000 watts of sound, a reverberating stage, one night and your chance to be in the midst of it all. With people from Bollywood coming to our college for star nights, this fest surely rocks. The list includes - Vinod Rathore, Euphoria, Shibani Kashyap, Tantriks’ Band, Mika, dance group Zeal, Amit Kumar and Sumit Kumar, Jassi, Suraj Jagan,Remo Fernandes, Mahalakshmi Iyer, Usha uthup and to top them we have KUNAL GANJAWALA as this years attraction"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:background="#9C27B0"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                >
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="KUNAL GANJAWALA"
+                    android:textSize="20dp"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#009688"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kunal Ganjawala (Born: 14 April 1972) is a popular playback singer whose songs are mostly featured in Hindi and Kannada films. He has also sung in Marathi, Bengali and other official languages of India. Kunal began his career by singing jingles. He came to limelight in Hindi with the song 'Bheege Honth Tere' from the film Murder in 2004. It was his first biggest hit. The song earned him Zee Cine Award as Best Playback Singer in 2005. He came to limelight in Kannada with the song 'Neene Neene' from the film Akash in 2005."
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganjawala's first break in Bollywood was Ab Ke Baras in 2002. Although the song did not mark him as a prominent singer, it earned him many offers. Thereafter he sang in many movies, such as Saathiya (2002), Indian Babu (2003), Paisa Vasool (2004), Khakee (2004), Rudraksh (2004), Dhoom (2004) and Meenaxi (2004)."
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f1"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC EVENTS"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Competitive Events"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#9C27B0"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+
+        />
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Surtaj [Hindi Solos for Boys]"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • Time Limit : 3 minutes for each"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • Accompanist allowed"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • Karaokes are also allowed"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Raag [Hindi Solos for Girls]"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Time Limit : 3 minutes for each"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Accompanist allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Karaokes are also allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="left"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Blues [Western Solos and Raps]"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Time Limit : 3 minutes for each"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Accompanist allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Karaokes are also allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="left"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Saamanjasya (Duet Singing)"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Time Limit : 3 minutes for each"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • English/Hindi songs allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Accompanist allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Karaokes are also allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Synchronicity (Group Singing)"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Time Limit : 4 minutes"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • English/Hindi songs allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Accompanist/Karaokes allowed"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  • Group of 4-6 members "
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vaadya Tarang (Instrumental Solos)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+
+        />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="  • Time Limit: 3 minutes for each"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="#9C27B0"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="GENERAL RULES for Competitive Events"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Only 3 entries per competitive event from a college will be accepted."
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Orchestra for all the competitions will be provided."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • An accompanist in any competition is any instrument player."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • The instruments provided by the college will be Drum Set (MAPEX) and Synthesizer (YAMAHA–PSR-33). Participants are requested to bring their own instruments if any instruments other than these are required."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • Karaokes for the competition are invited. "
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • If failed to perform in the 1st attempt, no 2nd attempt will be provided to the contestants in any of the competitive events."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  • Decision of the Judges and the Organizing committee will be final and cannot be challenged."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="#9C27B0"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presentation Events"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#009688"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The enthusiasm will start from Classical Presentation: ‘Sur Sangam’ followed by inaugural event: ‘SaumyaSuramya’ and for the evening programs Euphony will be presenting the cherishable melodies of 90’s: ‘90’s Not Out’ and the theme based Euphony Presentation: ‘Aawahan’. The college band i.e., YUVA will rock the stage: ‘YUVA Presentation’.
+The event stopping show that will be a surprise package for the audience, will be an Original Composition written and composed by EUPHONIANS: ‘Euphony- The Album’."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="left"
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:background="@drawable/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+
+            android:padding="16dp"
+            android:orientation="vertical"
+
+
+            >
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Register"
+                android:id="@+id/bthowtoreg"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Choreography Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregstep"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Music Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregmusic"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Dramatics Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregdramatics"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Literati Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregliterati"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Informal Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btreginformal"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Handicraft Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btreghandicraft"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Newspaper Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregnewspaper"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Photography Cell"
+                android:textAllCaps="false"
+                android:id="@+id/btregphoto"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:text="Creative Canvas"
+                android:textAllCaps="false"
+                android:id="@+id/btregcreativecanvas"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff050101"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

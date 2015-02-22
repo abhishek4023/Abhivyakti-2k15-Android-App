@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#424242"
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCLAIMER"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#795548"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THIS APP HAS BEEN CREATED WITH THE AIM TO KEEP YOU INFORMED REGARDING THE VARIOUS EVENTS BEING ORGANIZED IN ABHIVYAKTI 2K15. YOU CAN REGISTER FOR ANY OF THE EVENTS AND HAVE AN ACCESS TO THE RESULTS OF THE VARIOUS COMPETITIVE EVENTS.THIS APP MIGHT BE SUBJECT TO HUMAN OR TECHNICAL ERRORS.SO,KINDLY RE-CONFIRM THE RESULTS AT THE CONTROL DESK, SRMCEM, LUCKNOW. THIS APP AIMS AT PARTICIPANT-SATISFACTION AND STUDENT-FRIENDLY APPROACH TO KEEP YOU UPDATED.BUT WE MUST NOT BE HELD RESPONSIBLE IN CASE OF TRIVIAL ERRORS OR RESULT-DISCREPANCIES.WE ARE HIGHLY THANKFUL FOR YOUR COOPERATION."
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
